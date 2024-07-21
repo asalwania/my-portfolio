@@ -1,9 +1,30 @@
+import { link } from "fs";
+
 export const profile = {
   firstName: "Alka",
   lastName: "Sharma",
+  email: "alkagotit@gmail.com",
   location: "Mohali, India",
   designation: "Frontend Software Developer",
 };
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    link: "https://github.com/AlkaSharma91",
+  },
+  {
+    id: 3,
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/alka-sharma-715b09201/",
+  },
+  {
+    id: 2,
+    img: "/twit.svg",
+    link: "#",
+  },
+];
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -200,20 +221,5 @@ export const workExperience = [
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-  },
-];
-
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
-    img: "/link.svg",
   },
 ];
