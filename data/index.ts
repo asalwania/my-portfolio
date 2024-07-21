@@ -1,6 +1,8 @@
 export const profile = {
-  firstName: "Ajay",
-  lastName: "Kumar",
+  firstName: "Alka",
+  lastName: "Sharma",
+  location: "Mohali, India",
+  designation: "Frontend Software Developer",
 };
 
 export const navItems = [

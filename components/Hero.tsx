@@ -58,8 +58,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m {profile.firstName}, a Next.js Developer based in
-            Croatia.
+            {`Hi! I'm ${profile.firstName}, a ${profile.designation} based in ${profile.location}.`}
           </p>
 
           <a href="#about">
