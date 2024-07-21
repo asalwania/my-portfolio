@@ -19,11 +19,11 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/alka-sharma-715b09201/",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: "#",
-  },
+  // {
+  //   id: 2,
+  //   img: "/twit.svg",
+  //   link: "#",
+  // },
 ];
 
 export const navItems = [
